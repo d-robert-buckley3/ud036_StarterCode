@@ -9,6 +9,14 @@ import webbrowser
 class Movie():
 	"""
 	This class provides a way to store movie related information
+	
+	Attributes:
+	    title (str):     the movie's title
+	    storyline (str): a brief synopsis about the film
+	    poster_image_url (str): 
+		web URL pointing to the an image of the movie's poster
+	    trailer_youtube_url (str):
+		web URL of the movie's official trailer on YouTube
 	"""
 	VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
