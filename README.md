@@ -8,6 +8,6 @@ Later we imported another file, fresh_tomatoes.py, which takes a list of our Mov
 
 On a Python enabled system:
 
-* Clone this repo to a local folder
+* Clone this repo to a local folder using the green "Clone or Download" button to the upper right above
 * Execute using: python entertainment_center.py
 
