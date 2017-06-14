@@ -1,3 +1,7 @@
+# From github repo:
+#     https://github.com/adarsh0806/ud036_StarterCode
+# Used per recommendation by Udacity project instructions
+
 import webbrowser
 import os
 import re
@@ -39,9 +43,22 @@ main_page_head = '''
             margin-bottom: 20px;
             padding-top: 20px;
         }
+        .movie-tile .tooltip {
+            visibility: hidden;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+        }
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
+        }
+        .movie-tile:hover .tooltip {
+            visibility: visible;
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -124,7 +141,8 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h2>{movie_title_short}</h2>
+    <span class="tooltip">{movie_title}</span>
 </div>
 '''
 
@@ -143,7 +161,8 @@ def create_movie_tiles_content(movies):
 
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
-            movie_title=movie.title if (len(movie.title) < 20) else movie.title[:19] + '...',
+            movie_title=movie.title,
+            movie_title_short=movie.title if (len(movie.title) < 20) else movie.title[:19] + '...',
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )
