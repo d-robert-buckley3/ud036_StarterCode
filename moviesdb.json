@@ -1,0 +1,41 @@
+{
+	"movies": [
+		{
+			"title": "Das finstere Tal (The Dark Valley)",
+			"storyline": "A young man gets revenge on a family of rapists",
+			"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/6/61/The_Dark_Valley_poster.jpg",
+			"trailer_youtube_url": "https://www.youtube.com/watch?v=wZqYbJM3JJc"
+		},
+		{
+			"title": "What We Do In The Shadows",
+			"storyline": "Four vampires are documented dealing with New Zealand life as flatmates",
+			"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/7/70/What_We_Do_in_the_Shadows_poster.jpg",
+			"trailer_youtube_url": "https://www.youtube.com/watch?v=IAZEWtyhpes"
+		},
+		{
+			"title": "Blade Runner",
+			"storyline": "A cop who hunts down synthetic humans in 2019 Los Angeles",
+			"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg",
+			"trailer_youtube_url": "https://www.youtube.com/watch?v=eogpIG53Cis"
+		},
+		{
+			"title": "Everything Is Illuminated",
+			"storyline": "A young man visits Ukraine to find a long, lost relative",
+			"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/2/27/Everything_Is_Illuminated_film.jpg",
+			"trailer_youtube_url": "https://www.youtube.com/watch?v=l-hCtlNM32M"
+		},
+		{
+			"title": "The Fifth Element",
+			"storyline": "A New York cabbie saves the woman who can save the universe",
+			"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/6/65/Fifth_element_poster_%281997%29.jpg",
+			"trailer_youtube_url": "https://www.youtube.com/watch?v=fQ9RqgcR24g"
+		},
+		{
+			"title": "Flukt (Escape)",
+			"storyline": "A young Norwegian girl must escape capture by forest bandits in the 13th century",
+			"poster_image_url": "https://nekonekomovielitterbox.files.wordpress.com/2013/05/fluktposter.jpg",
+			"trailer_youtube_url": "https://www.youtube.com/watch?v=8VKqGrmx_t4"
+		}
+
+	]
+}
